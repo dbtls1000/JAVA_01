@@ -2,23 +2,23 @@
 public class Boolean_06 {
 	public static void main(String[] args) {
 		
-		int num1 = 10;
+		int num1 = 15;
 		int num2 = 20;
 		int num3 = 30;
 		int num4 = 40;
 		
 		boolean bYes = true;
 		
-		// && -> AND¿¬»ê
-		// && µÎ°³ ÀÌ»óÀÇ ºñ±³ ¿¬»ê°á°ú°¡ ¸ðµÎ trueÀÏ¶§¸¸ true 
+		// && -> ANDï¿½ï¿½ï¿½ï¿½
+		// && ï¿½Î°ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ trueï¿½Ï¶ï¿½ï¿½ï¿½ true 
 		bYes = (num1 == num2) && (num3 == num4); // f and f : f
 		bYes = num1 == num1 && num3 == num4; // t and f : f
 		bYes = num1 == num2 && num3 == num3; // f and t : f
 		bYes = num1 == num1 && num3 == num3; // t and t : t
 		
 		
-		// || -> OR¿¬»ê
-		// || µÎ°³ ÀÌ»óÀÇ ºñ±³ ¿¬»ê°á°úÁß 1°³¶óµµ trueÀÌ¸é true
+		// || -> ORï¿½ï¿½ï¿½ï¿½
+		// || ï¿½Î°ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ trueï¿½Ì¸ï¿½ true
 		bYes = num1 == num2 || num3 == num4; // f or f : f
 		bYes = num1 == num1 || num3 == num4; // t or f : t
 		bYes = num1 == num2 || num3 == num3; // f or t : t
